@@ -92,7 +92,7 @@ public class GroupMessengerActivity extends Activity {
             @Override
             public void onClick(View v) {
                 String msg = editText.getText().toString() + "\n";
-                editText.setText(""); // This is one way to reset the input box.
+                editText.setText("ffff"); // This is one way to reset the input box.
                 TextView localTextView = (TextView) findViewById(R.id.textView1);
                 localTextView.append("\t" + msg); // This is one way to display a string.
                 TextView remoteTextView = (TextView) findViewById(R.id.textView1);
